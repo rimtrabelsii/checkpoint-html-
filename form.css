@@ -1,0 +1,67 @@
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+  font-family: Georgia, 'Times New Roman', Times, serif;}
+    
+.navbar a{color:rgb(18, 82, 116);}
+.navbar a:hover{color: rgb(220, 33, 83);}
+
+body { background-image: linear-gradient(to right, rgb(196 218 229) ,white, rgb(241 233 179));
+  justify-content: space-around;
+}
+
+ h1{color: #bb7437;
+    text-align: center;
+    text-transform: capitalize;
+    text-size-adjust: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      input[type=text] {
+        border: 2px solid rgb(227, 201, 115);
+        border-radius: 4px;
+      }
+      input[type=email] {
+        border: 2px solid rgb(227, 201, 115);
+        border-radius: 4px;
+      }
+      input[type=password] {
+        border: 2px solid rgb(227, 201, 115);
+        border-radius: 4px;
+      }
+      input[type=date] {
+        border: 2px solid rgb(227, 201, 115);
+        border-radius: 4px;
+      }
+      input[type=textarea] {
+        border: 2px solid rgb(194, 194, 152);
+        border-radius: 4px;
+      }
+      select {
+        width: 100%;
+        padding: 16px 20px;
+        border: 2px solid rgb(227, 201, 115);
+        border-radius: 4px;
+        background-color: #bbc8c7;
+      }
+      textarea {
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+       
+        border: 2px solid rgb(194, 194, 152);
+        border-radius: 4px;
+        background-color: #bbc8c7 ;
+        resize: none;
+      }
+      
+.footer {
+    margin-top: 59px;
+    background-color: gray;
+    display: flex;
+    align-items:normal;
+    justify-content: center;
+  }
+  
